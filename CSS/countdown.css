@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Readex Pro", sans serif;
+}
+
+
+
+h2{
+    padding: 50px;
+}
+.countdown{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+    background-image: url('../images/xmas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    
+    background-color: rgb(253, 60, 60);
+    
+}
+
+.datesAvant{
+    display: flex;
+    justify-content:space-between;  
+    text-align:center;
+    
+}
+
+.jour, .heures, .minutes, .secondes {
+    font-size: 3rem;
+}
